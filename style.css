@@ -28,6 +28,7 @@ h1 {
 #my-pokedex {
   margin-top: 10px;
   margin-bottom: 40px;
+  text-align: center;
 }
 
 .poke-container {
