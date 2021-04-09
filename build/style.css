@@ -1,5 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
 
+@import url('https://db.onlinewebfonts.com/c/f4d1593471d222ddebd973210265762a?family=Pokemon');
+
+@font-face {
+  font-family: 'Pokemon';
+  src: url('//db.onlinewebfonts.com/t/f4d1593471d222ddebd973210265762a.eot');
+  src: url('//db.onlinewebfonts.com/t/f4d1593471d222ddebd973210265762a.eot?#iefix')
+      format('embedded-opentype'),
+    url('//db.onlinewebfonts.com/t/f4d1593471d222ddebd973210265762a.woff2')
+      format('woff2'),
+    url('//db.onlinewebfonts.com/t/f4d1593471d222ddebd973210265762a.woff')
+      format('woff'),
+    url('//db.onlinewebfonts.com/t/f4d1593471d222ddebd973210265762a.ttf')
+      format('truetype'),
+    url('//db.onlinewebfonts.com/t/f4d1593471d222ddebd973210265762a.svg#Pokemon')
+      format('svg');
+}
+
 * {
   box-sizing: border-box;
 }
@@ -17,20 +34,34 @@ body {
 }
 
 h1 {
-  letter-spacing: 3px;
-  font-size: 3rem;
+  letter-spacing: 2px;
+  font-size: 3.5rem;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.8rem;
   text-align: center;
 }
 
 #my-name {
   margin-top: 65px;
   margin-bottom: 0;
+  font-family: 'Pokemon';
+  color: gold;
+  font-weight: 400;
+  text-shadow: 0 3px 5px rgba(0, 0, 0, 0.7);
 }
 
 #my-pokedex {
-  margin-top: 10px;
+  margin-top: 0px;
   margin-bottom: 40px;
   text-align: center;
+  font-family: 'Pokemon';
+  color: rgba(243, 35, 35, 0.788);
+  font-weight: 100;
+  text-shadow: 0 3px 5px rgba(0, 0, 0, 0.5);
+  letter-spacing: 0.05em;
 }
 
 .poke-container {
