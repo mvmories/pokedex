@@ -17,6 +17,17 @@ body {
 
 h1 {
   letter-spacing: 3px;
+  font-size: 3rem;
+}
+
+#my-name {
+  margin-top: 60px;
+  margin-bottom: 0;
+}
+
+#my-pokedex {
+  margin-top: 10px;
+  margin-bottom: 40px;
 }
 
 .poke-container {
@@ -26,6 +37,14 @@ h1 {
   justify-content: center;
   margin: 0 auto;
   max-width: 1200px;
+}
+
+.grow {
+  transition: all 0.2s ease-in-out;
+}
+
+.grow:hover {
+  transform: scale(1.1);
 }
 
 .pokemon {
